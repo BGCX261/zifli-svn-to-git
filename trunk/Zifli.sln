@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZifliService", "ZifliService_ver2\ZifliService.csproj", "{29A9B876-E4B1-438F-A999-B20749DC8D81}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ZifliSetup", "zifliSetup\zifliSetup.vdproj", "{09288D10-EAAC-47A2-89AD-D57C1F4F927D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBA159A3-251A-40E4-BF59-1483CC25C56E} = {BBA159A3-251A-40E4-BF59-1483CC25C56E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZifliAdmin", "ZifliAdmin\ZifliAdmin.csproj", "{BBA159A3-251A-40E4-BF59-1483CC25C56E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{29A9B876-E4B1-438F-A999-B20749DC8D81} = {29A9B876-E4B1-438F-A999-B20749DC8D81}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29A9B876-E4B1-438F-A999-B20749DC8D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A9B876-E4B1-438F-A999-B20749DC8D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A9B876-E4B1-438F-A999-B20749DC8D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A9B876-E4B1-438F-A999-B20749DC8D81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09288D10-EAAC-47A2-89AD-D57C1F4F927D}.Debug|Any CPU.ActiveCfg = Debug
+		{09288D10-EAAC-47A2-89AD-D57C1F4F927D}.Release|Any CPU.ActiveCfg = Release
+		{BBA159A3-251A-40E4-BF59-1483CC25C56E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA159A3-251A-40E4-BF59-1483CC25C56E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA159A3-251A-40E4-BF59-1483CC25C56E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA159A3-251A-40E4-BF59-1483CC25C56E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
